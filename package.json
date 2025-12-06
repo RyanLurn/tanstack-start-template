@@ -8,8 +8,9 @@
     "serve": "vite preview",
     "test": "vitest run",
     "lint": "eslint",
-    "format": "prettier",
-    "check": "prettier --write . && eslint --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check",
+    "check": "pnpm run lint && pnpm run format:check",
     "deploy": "wrangler deploy"
   },
   "dependencies": {
@@ -42,7 +43,9 @@
     "@vitejs/plugin-react": "^5.1.1",
     "babel-plugin-react-compiler": "^1.0.0",
     "jsdom": "^27.2.0",
-    "prettier": "^3.7.4",
+    "prettier": "3.7.4",
+    "prettier-plugin-curly": "0.4.1",
+    "prettier-plugin-tailwindcss": "0.7.2",
     "typescript": "^5.9.3",
     "vite": "^7.2.6",
     "vitest": "^4.0.15",
