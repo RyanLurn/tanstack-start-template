@@ -27,6 +27,9 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
