@@ -67,5 +67,6 @@
     "vitest": "^4.0.15",
     "web-vitals": "^5.1.0",
     "wrangler": "^4.53.0"
-  }
+  },
+  "packageManager": "pnpm@10.24.0"
 }
