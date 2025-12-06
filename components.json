@@ -6,13 +6,13 @@
   "tailwind": {
     "config": "",
     "css": "src/styles.css",
-    "baseColor": "zinc",
+    "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
   },
   "aliases": {
     "components": "@/components",
-    "utils": "@/lib/utils",
+    "utils": "@/lib/utilities",
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
